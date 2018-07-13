@@ -223,6 +223,7 @@ public class MainActivity extends AppCompatActivity {
                         StorageMetadata storageMetadata = taskSnapshot.getMetadata();
                         StorageReference storageReference = storageMetadata.getReference();
                         storageReference.getDownloadUrl();
+                        // TODO: ADD Task code for url handling
                     }
                 });
 
